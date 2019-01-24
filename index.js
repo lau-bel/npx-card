@@ -10,7 +10,7 @@ CFonts.render('Welcome',
 {
 
 //font title :
-font: 'block',              // define the font face
+font: 'Block',              // define the font face
 align: 'center',              // define text alignment
 colors: ['candy'],         // define all colors
 background: 'transparent',  // define the background color, you can also use `backgroundColor` here as key
