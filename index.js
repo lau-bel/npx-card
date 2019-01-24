@@ -25,7 +25,8 @@ boxen('Laura Belferroum'  + "\nJunior Web Developer @becode.org" +
 " \n  ♥  Design" +
 " \n ♥  People" +
 
-chalk.magentaBright.bold("\n Instagram : ") + "https://www.instagram.com/utilisatrice42/)",
+chalk.magentaBright.bold("\n Instagram : ") + "https://www.instagram.com/utilisatrice42/"+
+chalk.magentaBright.bold("\n Github : ") + "https://github.com/lau-bel",
 
 
 {padding: 1, margin: 1, borderStyle: 'double', float: 'center', align: "center", borderColor: "#f9bbbb"}));
