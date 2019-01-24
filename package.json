@@ -1,0 +1,33 @@
+{
+  "name": "@lau-bel/laura",
+  "version": "0.1.2",
+  "description": "",
+  "main": "./index.js",
+  "bin":{
+    "laura": "./index.js"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node index.js",
+    "dev": "npm run build && node ./index.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lau-bel/npx-card.git"
+  },
+  "author": "Laura Belferroum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lau-bel/npx-card/issues"
+  },
+  "homepage": "https://github.com/lau-bel/npx-card#readme",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "cfonts": "^2.4.0",
+    "chalk": "^2.4.2",
+    "cli-boxes": "^1.0.0",
+    "nodejs": "0.0.0"
+  }
+}
